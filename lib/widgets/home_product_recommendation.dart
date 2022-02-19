@@ -24,7 +24,7 @@ class HomeProductRecommendations extends StatelessWidget {
       scrollDirection: Axis.vertical,
       child: GridView.count(
           physics: const NeverScrollableScrollPhysics(),
-          crossAxisCount: kIsWeb ? 6 : 3,
+          crossAxisCount: 3,
           shrinkWrap: true,
           childAspectRatio: .50,
           children: List.generate(_products.length, (index) {
