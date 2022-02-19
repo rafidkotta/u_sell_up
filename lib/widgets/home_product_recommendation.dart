@@ -53,7 +53,7 @@ class ProductView extends StatelessWidget {
               child: Stack(
                 children: [
                   Image.network(
-                    product.image != "" ? product.image : "https://i.ibb.co/v4Vhb7k/The-portrait-of-cute-little-kid-boy-in-stylish-jeans-clothes-looking-at-camera-against-white-studio.jpg",
+                    "https://i.ibb.co/v4Vhb7k/The-portrait-of-cute-little-kid-boy-in-stylish-jeans-clothes-looking-at-camera-against-white-studio.jpg",
                     width: width / 3,
                     height: (width / 3) * 1.3,
                     fit: BoxFit.fill,
