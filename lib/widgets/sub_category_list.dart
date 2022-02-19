@@ -64,7 +64,7 @@ class _SubCategoryListViewState extends State<SubCategoryListView> {
               physics: const NeverScrollableScrollPhysics(),
               crossAxisCount: 3,
               shrinkWrap: true,
-              childAspectRatio: .60,
+              childAspectRatio: .50,
               children: List.generate(_subCategories[_selected_category].products.length, (index) {
                 return ProductView(product: _subCategories[_selected_category].products[index]);
               })),

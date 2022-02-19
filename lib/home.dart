@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
         actions: [
            SizedBox(
             height: kToolbarHeight-20,
-            width: 200,
+            width: 150,
             child: Center(
               child: Container(
                 decoration: BoxDecoration(shape: BoxShape.rectangle,borderRadius: const BorderRadius.all(Radius.circular(10)),color: Colors.grey[200]),

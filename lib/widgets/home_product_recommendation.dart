@@ -26,7 +26,7 @@ class HomeProductRecommendations extends StatelessWidget {
           physics: const NeverScrollableScrollPhysics(),
           crossAxisCount: kIsWeb ? 6 : 3,
           shrinkWrap: true,
-          childAspectRatio: .60,
+          childAspectRatio: .50,
           children: List.generate(_products.length, (index) {
             return ProductView(product: _products[index]);
           })),
@@ -55,7 +55,7 @@ class ProductView extends StatelessWidget {
                   Image.network(
                     product.image != "" ? product.image : "https://i.ibb.co/v4Vhb7k/The-portrait-of-cute-little-kid-boy-in-stylish-jeans-clothes-looking-at-camera-against-white-studio.jpg",
                     width: width / 3,
-                    height: (width / 3) * 1.2,
+                    height: (width / 3) * 1.3,
                     fit: BoxFit.fill,
                   ),
                   Positioned(
